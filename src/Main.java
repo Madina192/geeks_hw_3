@@ -14,8 +14,8 @@ public class Main {
                 index++;
             }
         }
-        System.out.println("Среднее арифметическое чисел: " + number/index);
-        
+        System.out.println("Среднее арифметическое положительных чисел: " + number/index);
+
         double box;
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {
@@ -26,9 +26,6 @@ public class Main {
                 }
             }
         }
-        System.out.println(Arrays.toString(numbers));
-
+        System.out.println("Отсортированный массив: " + Arrays.toString(numbers));
     }
-
-
 }
